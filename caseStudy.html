@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng kho truyện</title>
+    <style>
+        legend{
+            text-align: center;
+        }
+
+        label{
+            text-align: center;
+        }
+        textarea{
+            text-align: center;
+        }
+        table{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body background="star.jpg">
+<fieldset style="text-align: center">
+    <legend><h1 style="color: rgba(157,251,141,0.99)">THƯ VIỆN TRUYỆN</h1></legend>
+    <input id="input" type="text" placeholder="Nhập tên truyện cần tìm" style="text-align: center; height: 30px; width: 300px" oninput="search()"><br><br>
+    <button type="button" onclick="display()">Hiển thị danh sách truyện</button><br><br>
+    <table id="ba" style="text-align: left; color: yellow">
+        <tr>
+            <td>
+                <div style="color: yellow"></div>
+            </td>
+        </tr>
+    </table>
+    <textarea id="demo1" style="width: 800px ; height: 350px; background-image: url(anh-nen-3d-thien-nhien.jpg);color: whitesmoke" disabled  >thông tin cần biết</textarea>
+    <label><h2 style="color: hotpink"> Thêm truyện yêu thích</h2></label>
+    <input type="text" id="nameAdd" placeholder="Tên của truyện" style="color: aqua; text-align: center;background-image: url(star.jpg)">
+    <input type="text" id="authorAdd" placeholder="Tên tác giả" style="color: red ; text-align: center; background-image: url(star.jpg)" >
+    <input type="text" id="genreAdd" placeholder="Thể loại" style="color:greenyellow; text-align: center; background-image: url(star.jpg)" >
+    <input type="text" id="chapAdd" placeholder="Tổng số chương" style="color: rgba(210,53,255,0.96); text-align: center;background-image: url(star.jpg)">
+    <input type="text" id="contentAdd" placeholder="Nội dung chính" style="color:yellow ; text-align: center;background-image: url(star.jpg)"><br>
+    <br><br><button type="button" onclick="addInformation()" style="background: aqua">Thêm các thông tin này !!!</button>
+</fieldset>
+<script src="casestudy.js"></script>
+</body>
+</html>

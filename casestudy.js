@@ -11,6 +11,7 @@ let Story = function (name) {
     };
 };
 
+// Khanh Update 
 let Information = function (name, author, genre, chap, content) {
 
     this.author = author;

@@ -68,6 +68,8 @@ let Information = function (name, author, genre, chap, content) {
 
 };
 
+console.log(Information);
+
 let library = new Story();
 
 let info_1 = new Information("Doraemon", " Fujiko Fujio", "Hài hước, viễn tưởng", 112, " Doraemon (Đôrêmon) là một chú mèo máy được Sewashi (Nôbitô), cháu ba đời của Nobita gửi về quá khứ cho ông mình để giúp đỡ Nobita tiến bộ, tức là cũng sẽ cải thiện hoàn cảnh của con cháu Nobita sau này." +
